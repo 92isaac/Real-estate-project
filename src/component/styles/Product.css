@@ -1,0 +1,21 @@
+.product-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product-container .product {
+  border-radius: 20px;
+}
+
+.product-container img {
+  width: 100%;
+}
+
+.product-container .bed-size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=Product.css.map */

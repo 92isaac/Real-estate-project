@@ -1,10 +1,11 @@
 .hero-wrapper {
+  margin-top: 100px;
   height: 89vh;
   padding: 0 100px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .hero-wrapper img {
@@ -13,5 +14,6 @@
 
 .hero-wrapper .herotext {
   font-size: 30px;
+  margin-left: 100px;
 }
 /*# sourceMappingURL=Herosec.css.map */
