@@ -1,0 +1,45 @@
+.footer {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer label {
+  margin: 0;
+  padding: 0;
+}
+
+.footer .list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.footer a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 150px;
+}
+
+.footer .social select {
+  width: 200px;
+}
+
+.footer .social svg {
+  font-size: 30px;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=footer.css.map */

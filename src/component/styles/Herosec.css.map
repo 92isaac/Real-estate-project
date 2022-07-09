@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,OAAO;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CAQjC;;AAZD,AAMI,aANS,CAMT,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;CACd;;AARL,AASI,aATS,CAST,SAAS,CAAA;EACL,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "Herosec.scss"
+    ],
+    "names": [],
+    "file": "Herosec.css"
+}

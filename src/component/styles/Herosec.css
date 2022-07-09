@@ -1,0 +1,17 @@
+.hero-wrapper {
+  height: 89vh;
+  padding: 0 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+.hero-wrapper img {
+  width: 100%;
+}
+
+.hero-wrapper .herotext {
+  font-size: 30px;
+}
+/*# sourceMappingURL=Herosec.css.map */

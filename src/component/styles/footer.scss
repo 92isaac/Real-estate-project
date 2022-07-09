@@ -1,0 +1,37 @@
+.footer{
+    position: relative;
+    background-color: #000;
+    color: #fff;
+
+    label{
+        margin: 0;
+        padding: 0;
+    }
+    .list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        place-items: center;
+    }
+
+    a{
+        display: block;
+        text-decoration: none;
+        padding: 10px 0;
+        font-weight: 700;
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 150px ;
+
+        select{
+            width: 200px;
+        }
+
+        svg{
+            font-size: 30px;
+            padding: 0 10px;
+        }
+    }
+}
