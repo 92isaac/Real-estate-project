@@ -1,24 +1,28 @@
 import React from 'react'
 import img from '../../images/american-banking-buy-210617-removebg-preview.png'
+import Button from '../commonfiles/Button'
+import { useNavigate } from 'react-router-dom'
 
 
-const Produc = (props) => {
+
+const Produc = ({img, details, price, location,roomNum, bathNum, id}) => {
+    const navigate = useNavigate()
   return (
-<div className="product">
+<div className="product" onClick={() => navigate('/products/' + id)}>
         <div>
           <img
-            src={props.img}
+            src={img}
             alt="placeholder"
           />
         </div>
         <div>
-          <h4>{props.details}</h4>
-          <h5>{props.price}</h5>
-          <p>{props.location}</p>
+          <h4>{details}</h4>
+          <h5>{price}</h5>
+          <p>{location}</p>
         </div>
         <div className="bed-size">
-          <div>3 Bedroom</div>
-          <div>2 Bathroom</div>
+          <div>{roomNum}</div>
+          <div>{bathNum}</div>
         </div>
       </div>
   )
